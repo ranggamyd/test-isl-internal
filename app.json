@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Intilab",
+    "slug": "intilab",
+    "version": "3.1.15",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.intilab.apps"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.intilab.apps",
+      "googleServicesFile": "./android/app/google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDTZYBrCC8HXD3Z-C5q8QMYYSkJP3dn5uM"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "env": {
+      "API_URL": "https://apps.intilab.com/v4/public/api/"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e02c54e1-70f1-4291-9e24-7830b372e7a2"
+      }
+    },
+    "owner": "skyhwk12"
+  }
+}
